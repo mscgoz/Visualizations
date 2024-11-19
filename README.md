@@ -13,3 +13,20 @@ Hickey, W., Laskowski, C., Chow, T., & Scherer, E. (2017, October 27). The Ultim
 Dataset:
 https://github.com/fivethirtyeight/data/tree/master/candy-power-ranking
 
+Data Dictionary:
+### Candy Attributes Dataset Description
+
+| **Header**          | **Description**                                                                 |
+|----------------------|---------------------------------------------------------------------------------|
+| **chocolate**        | Indicates whether the candy contains chocolate.                                |
+| **fruity**           | Specifies if the candy is fruit-flavored.                                      |
+| **caramel**          | Denotes the presence of caramel in the candy.                                  |
+| **peanut_almondy**    | Indicates if the candy contains peanuts, peanut butter, or almonds.            |
+| **nougat**           | Specifies whether the candy includes nougat.                                   |
+| **crisped_ricewafer** | Highlights if the candy has crisped rice, wafers, or cookie elements.          |
+| **hard**             | Identifies whether the candy is classified as hard candy.                      |
+| **bar**              | Specifies if the candy is a bar-style product.                                 |
+| **pluribus**         | Indicates if the candy is sold as part of a bag or box with multiple pieces.   |
+| **sugar_percent**     | Represents the sugar content percentile within the dataset.                    |
+| **price_percent**     | Denotes the unit price percentile compared to all candies in the dataset.      |
+| **win_percent**       | Reflects the candy's win percentage based on 269,000 head-to-head matchups.    |
