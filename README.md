@@ -2,7 +2,7 @@
 Repo for all of my Tableau Public projects
 
 1. Candy Dataset
-2. ...
+2. OECD Secondary Graduation Rates
 3. ...
 4. ...
 
@@ -42,3 +42,32 @@ Hickey, W., Laskowski, C., Chow, T., & Scherer, E. (2017, October 27). The Ultim
 
 Dataset:
 https://github.com/fivethirtyeight/data/tree/master/candy-power-ranking
+
+## 2. OECD Secondary Scghool Visual Analysis
+
+### 2.1. Introduction
+
+The secondary graduation rate refers to the projected proportion of individuals expected to complete secondary education during their lifetime. The data is categorized by gender and presented for both upper-secondary and post-secondary, non-tertiary education levels (Organisation for Economic Co-operation and Development, n.d.).
+
+### 2.2. Data Dictionary
+
+| **Column A: Location**  | Displays a 3-letter country code representing the country (e.g., CZE).         |
+|--------------------------|----------------------------------------------------------------------------|
+| **Column B: Indicator**  | Contains a single value, "gradrate," meaning "graduation rate"; included only to maintain consistency across OECD datasets. |
+| **Column C: Subject**    | Specifies the subcategory of data, divided by gender and school level.     |
+| **Column D: Measure**    | Indicates the unit of measurement: **PC** for percentage or **A** for annual count. |
+| **Column E: Frequency**  | Shows how often the data is reported; the only value is **A** (annual).     |
+| **Column F: Time**       | Represents the year the data was collected (e.g., 2010, 2011, etc.).       |
+| **Column G: Value**      | Displays the graduation rate.                                              |
+| **Column H: Flag Codes** | Identifies potential errors in the data; the only flag is **M** (missing data). |
+
+### 2.3. Data Visualizations - Tableau Links
+
+
+### 2.4. Source:
+
+Reference: 
+Organisation for Economic Co-operation and Development. (2024). Secondary graduation rate. https://www.oecd.org/en/data/indicators/secondary-graduation-rate.html
+
+Dataset:
+https://www.oecd.org/en/data/indicators/secondary-graduation-rate.html#indicator-chart
