@@ -55,14 +55,14 @@ grad rate sheet:
 
 | **Header**          | **Description**                                                                 |
 |----------------------|---------------------------------------------------------------------------------|
-| **Column A: Location**  | Displays a 3-letter country code representing the country (e.g., CZE).         |
-| **Column B: Indicator**  | Contains a single value, "gradrate," meaning "graduation rate"; included only to maintain consistency across OECD datasets. |
-| **Column C: Subject**    | Specifies the subcategory of data, divided by gender and school level.     |
-| **Column D: Measure**    | Indicates the unit of measurement: **PC** for percentage or **A** for annual count. |
-| **Column E: Frequency**  | Shows how often the data is reported; the only value is **A** (annual).     |
-| **Column F: Time**       | Represents the year the data was collected (e.g., 2010, 2011, etc.).       |
-| **Column G: Value**      | Displays the graduation rate.                                              |
-| **Column H: Flag Codes** | Identifies potential errors in the data; the only flag is **M** (missing data). |
+| **Location**  | Displays a 3-letter country code representing the country (e.g., CZE).         |
+| **Indicator**  | Contains a single value, "gradrate," meaning "graduation rate"; included only to maintain consistency across OECD datasets. |
+| **Subject**    | Specifies the subcategory of data, divided by gender and school level.     |
+| **Measure**    | Indicates the unit of measurement: **PC** for percentage or **A** for annual count. |
+| **Frequency**  | Shows how often the data is reported; the only value is **A** (annual).     |
+| **Time**       | Represents the year the data was collected (e.g., 2010, 2011, etc.).       |
+| **Value**      | Displays the graduation rate.                                              |
+| **Flag Codes** | Identifies potential errors in the data; the only flag is **M** (missing data). |
 
 enrollment sheet:
 
