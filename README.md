@@ -2,7 +2,7 @@
 Repo for all of my Tableau Public projects
 
 1. Candy Dataset
-2. OECD Secondary Graduation Rates
+2. OECD Secondary School Graduation Rates
 3. ...
 4. ...
 
@@ -43,7 +43,7 @@ Hickey, W., Laskowski, C., Chow, T., & Scherer, E. (2017, October 27). The Ultim
 Dataset:
 https://github.com/fivethirtyeight/data/tree/master/candy-power-ranking
 
-## 2. OECD Secondary Scghool Visual Analysis
+## 2. OECD Secondary School Visual Analysis
 
 ### 2.1. Introduction
 
