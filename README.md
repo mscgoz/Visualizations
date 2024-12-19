@@ -68,14 +68,14 @@ enrollment sheet:
 
 | **Header**            | **Description**                                                                 |
 |------------------------|---------------------------------------------------------------------------------|
-| **Location**           | Displays a 3-letter country abbreviation representing the country (e.g., CZE). |
+| **Location**           | Displays a 3-letter country code representing the country (e.g., CZE).  |
 | **Indicator**          | Contains a single value, "enrollment," which stands for the enrollment rate.   |
 | **Subject**            | Represents data categories split by age groups: **AGE_17**, **AGE_18**, and **AGE_19**. |
 | **Measure**            | Indicates the unit of measurement, specifically a percentage: **PC_AGE**.      |
-| **Frequency**          | Describes the reporting frequency of the data; it has one value: **A** (annual). |
-| **Time**               | Refers to the year the data was collected (e.g., 2010, 2011, etc.).            |
-| **Value**              | Represents the enrollment rate.                                                |
-| **Flag Codes**         | Identifies potential errors in the data; the only flag is **M**, meaning "missing data." |
+| **Frequency**  | Shows how often the data is reported; the only value is **A** (annual).     |
+| **Time**       | Represents the year the data was collected (e.g., 2010, 2011, etc.).       |
+| **Value**      | Displays the graduation rate.                                              |
+| **Flag Codes** | Identifies potential errors in the data; the only flag is **M** (missing data). |
 
 ### 2.3. Data Visualizations - Tableau Links
 
