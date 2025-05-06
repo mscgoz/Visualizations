@@ -1,9 +1,9 @@
-# Tableau_Public_Projects
-Repo for all of my Tableau Public projects
+# Data Visualization PRojects
+Repo for all of my Visualization projects
 
-1. Candy Dataset
-2. OECD Secondary School Graduation Rates
-3. ...
+1. Candy Dataset - Tableau
+2. OECD Secondary School Graduation Rates - Tableau
+3. Loan Analysis - Amazon Quicksight
 4. ...
 
 ## 1. Candy Dataset Visual Analysis
@@ -90,3 +90,42 @@ Organisation for Economic Co-operation and Development. (2024). Secondary gradua
 
 Dataset:
 https://www.oecd.org/en/data/indicators/secondary-graduation-rate.html#indicator-chart
+
+## 3. Loan Analysis
+
+### 3.1. Introduction
+
+In this project, I explored the [LoanData.csv] dataset to understand credit behavior, borrower purposes, and loan performance outcomes through interactive visualizations. The primary goal was to interpret how loan purposes relate to final loan status — whether loans are paid, defaulted, or currently active.
+
+Using Amazon QuickSight, I built a Sankey Diagram to map the flow between Loan Status and Purpose fields. This format clearly shows which loan purposes are most common, and how they correlate with repayment success.
+
+### 3.2. Data Dictionary
+
+
+| **Header**          | **Description**                                                                |
+| ------------------- | ------------------------------------------------------------------------------ |
+| **id**              | Unique identifier for each loan application or record.                         |
+| **loan\_amnt**      | Total loan amount requested by the borrower.                                   |
+| **term**            | Duration of the loan, typically in months (e.g., 36 or 60 months).             |
+| **int\_rate**       | Annual interest rate charged on the loan, expressed as a percentage.           |
+| **installment**     | Monthly payment amount the borrower agrees to pay.                             |
+| **grade**           | Credit risk grade assigned to the loan (ranging from A to G).                  |
+| **emp\_length**     | Number of years the borrower has been employed (e.g., "10+ years", "<1 year"). |
+| **home\_ownership** | Borrower's home ownership status (e.g., RENT, OWN, MORTGAGE).                  |
+| **annual\_inc**     | Annual income reported by the borrower.                                        |
+| **purpose**         | Reason for taking the loan (e.g., debt consolidation, credit card, medical).   |
+| **loan\_status**    | Final status of the loan (e.g., fully paid, charged off, current).             |
+| **addr\_state**     | U.S. state abbreviation where the borrower resides (e.g., CA, NY, TX).         |
+
+
+### 2.3. Data Visualizations 
+
+[📄 View Full Report (PDF)](./loan_report.pdf)
+
+### 2.4. Source:
+
+Reference: 
+Exploring the Generative Business Intelligence Features in Amazon QuickSight (2025). https://explore.skillbuilder.aws/learn/courses/21647/lab-exploring-the-generative-business-intelligence-features-in-amazon-quicksight
+
+Dataset:
+https://explore.skillbuilder.aws/learn/courses/21647/lab-exploring-the-generative-business-intelligence-features-in-amazon-quicksight
