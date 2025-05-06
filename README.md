@@ -4,7 +4,7 @@ Repo for all of my Visualization projects
 1. Candy Dataset - Tableau
 2. OECD Secondary School Graduation Rates - Tableau
 3. Loan Analysis - Amazon Quicksight
-4. ...
+4. SaaS Sales Analysis - Amazon Quicksight
 
 ## 1. Candy Dataset Visual Analysis
 
@@ -129,3 +129,50 @@ Exploring the Generative Business Intelligence Features in Amazon QuickSight (20
 
 Dataset:
 https://explore.skillbuilder.aws/learn/courses/21647/lab-exploring-the-generative-business-intelligence-features-in-amazon-quicksight
+
+## 4. SaaS Sales Analysis
+
+### 3.1. Introduction
+
+In this project, I analyzed the SaaS-Sales.csv dataset to uncover sales performance trends across time, industries, customer segments, and geographic locations. The objective was to evaluate growth behavior, detect high-performing markets, and identify strategic areas for improvement.
+
+Using Amazon QuickSight, I built interactive visuals such as time series charts, donut breakdowns, Sankey diagrams, and geospatial maps to capture a multi-dimensional understanding of sales dynamics.
+
+### 3.2. Data Dictionary
+
+
+| **Header**       | **Description**                                                        |
+| ---------------- | ---------------------------------------------------------------------- |
+| **City**         | Name of the city where the order was placed.                           |
+| **Contact Name** | Name of the customer contact person.                                   |
+| **Country**      | Country in which the transaction occurred.                             |
+| **Customer**     | Name of the customer or organization.                                  |
+| **Customer ID**  | Unique identifier for each customer.                                   |
+| **Date Key**     | Date value for joining or filtering time-based data.                   |
+| **Discount**     | Discount rate applied to the order, expressed as a percentage.         |
+| **Industry**     | Industry sector associated with the customer (e.g., Tech, Healthcare). |
+| **License**      | Type of SaaS license purchased.                                        |
+| **Order Date**   | Date on which the order was placed.                                    |
+| **Order ID**     | Unique identifier for each transaction.                                |
+| **Product**      | Name of the SaaS product sold.                                         |
+| **Profit**       | Net profit generated from the transaction.                             |
+| **Quantity**     | Number of product licenses or units sold.                              |
+| **Region**       | Broad geographic region (e.g., EMEA, AMER, APJ).                       |
+| **Row ID**       | Row identifier for internal tracking.                                  |
+| **Sales**        | Total sales amount generated.                                          |
+| **Segment**      | Customer classification: SMB, Enterprise, or Strategic.                |
+| **Subregion**    | More specific location grouping under each region.                     |
+
+
+
+### 3.3. Data Visualizations 
+
+[📄 View Full Report (PDF)](./saas_report.pdf)
+
+### 3.4. Source:
+
+Reference: 
+Creating Interactive Dashboards with Amazon QuickSight (2025). https://explore.skillbuilder.aws/learn/course/internal/view/elearning/22329/lab-create-interactive-dashboards-with-amazon-quicksight
+
+Dataset:
+https://explore.skillbuilder.aws/learn/course/internal/view/elearning/22329/lab-create-interactive-dashboards-with-amazon-quicksight
