@@ -5,6 +5,7 @@ Repo for all of my Visualization projects
 2. OECD Secondary School Graduation Rates - Tableau
 3. Loan Analysis - Amazon Quicksight
 4. SaaS Sales Analysis - Amazon Quicksight
+5. Flight Cancellation Analysis - Amazon Quicksight
 
 ## 1. Candy Dataset Visual Analysis
 
@@ -118,11 +119,11 @@ Using Amazon QuickSight, I built a Sankey Diagram to map the flow between Loan S
 | **addr\_state**     | U.S. state abbreviation where the borrower resides (e.g., CA, NY, TX).         |
 
 
-### 2.3. Data Visualizations 
+### 3.3. Data Visualizations 
 
 [📄 View Full Report (PDF)](./loan_report.pdf)
 
-### 2.4. Source:
+### 3.4. Source:
 
 Reference: 
 Exploring the Generative Business Intelligence Features in Amazon QuickSight (2025). https://explore.skillbuilder.aws/learn/courses/21647/lab-exploring-the-generative-business-intelligence-features-in-amazon-quicksight
@@ -132,13 +133,13 @@ https://explore.skillbuilder.aws/learn/courses/21647/lab-exploring-the-generativ
 
 ## 4. SaaS Sales Analysis
 
-### 3.1. Introduction
+### 4.1. Introduction
 
 In this project, I analyzed the SaaS-Sales.csv dataset to uncover sales performance trends across time, industries, customer segments, and geographic locations. The objective was to evaluate growth behavior, detect high-performing markets, and identify strategic areas for improvement.
 
 Using Amazon QuickSight, I built interactive visuals such as time series charts, donut breakdowns, Sankey diagrams, and geospatial maps to capture a multi-dimensional understanding of sales dynamics.
 
-### 3.2. Data Dictionary
+### 4.2. Data Dictionary
 
 
 | **Header**       | **Description**                                                        |
@@ -165,14 +166,68 @@ Using Amazon QuickSight, I built interactive visuals such as time series charts,
 
 
 
-### 3.3. Data Visualizations 
+### 4.3. Data Visualizations 
 
 [📄 View Full Report (PDF)](./saas_report.pdf)
 
-### 3.4. Source:
+### 4.4. Source:
 
 Reference: 
 Creating Interactive Dashboards with Amazon QuickSight (2025). https://explore.skillbuilder.aws/learn/course/internal/view/elearning/22329/lab-create-interactive-dashboards-with-amazon-quicksight
 
 Dataset:
 https://explore.skillbuilder.aws/learn/course/internal/view/elearning/22329/lab-create-interactive-dashboards-with-amazon-quicksight
+
+## 5. Flight Cancellation Analysis 
+
+
+### 5.1. Introduction
+
+I analyzed a dataset containing over 12 million flight records that involved US airports as either departure or arrival points. Within this dataset, approximately 250,000 flights were marked as cancelled between 2020 and 2022. I conducted an exploratory analysis to uncover patterns behind these cancellations, with a focus on potential correlations between cancellation reasons, airline carriers, and airport-specific trends.
+
+### 5.2. Data Dictionary
+
+cancelled flight table 
+
+| **Header**                         | **Description**                                                               |
+| ---------------------------------- | ----------------------------------------------------------------------------- |
+| **FLIGHT\_DATE**                   | Date of the flight (YYYY-MM-DD format).                                       |
+| **DAY\_OF\_WEEK**                  | Day of the week on which the flight was scheduled.                            |
+| **OP\_CARRIER**                    | Two-letter code representing the operating carrier.                           |
+| **CARRIER\_NAME**                  | Full name of the airline carrier operating the flight.                        |
+| **OP\_CARRIER\_FL\_NUM**           | Carrier-specific flight number.                                               |
+| **ORIGIN**                         | Three-letter IATA code of the origin airport.                                 |
+| **DISPLAY\_AIRPORT\_NAME\_ORIGIN** | Full name of the origin airport.                                              |
+| **DEST**                           | Three-letter IATA code of the destination airport.                            |
+| **DISPLAY\_AIRPORT\_NAME\_DEST**   | Full name of the destination airport.                                         |
+| **CANCELLATION\_CODE**             | Reason for cancellation (if cancelled).                                       |
+| **NUMBER\_OF\_FLIGHTS**            | Number of scheduled flights (usually 1 per row).                              |
+| **LATITUDE\_ORIGIN**               | Geographic latitude of the origin airport.                                    |
+| **LONGITUDE\_ORIGIN**              | Geographic longitude of the origin airport.                                   |
+| **LATITUDE\_DEST**                 | Geographic latitude of the destination airport.                               |
+| **LONGITUDE\_DEST**                | Geographic longitude of the destination airport.                              |
+| **DISTANCE\_LEGEND**               | Categorized flight distance (e.g. "2500 Miles and Greater", "Less Than 250"). |
+
+
+cancellation codes table
+
+| **Header** | **Description**     |
+| ---------- | ------------------- |
+| **A**      | Carrier             |
+| **B**      | Weather             |
+| **C**      | National Air System |
+| **D**      | Security            |
+
+
+### 5.3. Data Visualizations 
+
+[📄 View Full Report (PDF)](./flight_report.pdf)
+
+### 5.4. Source:
+
+Reference: 
+Building BI Dashboards with Amazon QuickSight (2025). https://explore.skillbuilder.aws/learn/course/internal/view/elearning/16904/building-bi-dashboards-with-amazon-quicksight
+
+Dataset:
+https://us-west-2-tcprod.s3.amazonaws.com/courses/SPL-TF-100-ANQSDB/v1.0.8.prod-9fb9b762/scripts/all-cancelled-flights.csv
+https://us-west-2-tcprod.s3.amazonaws.com/courses/SPL-TF-100-ANQSDB/v1.0.8.prod-9fb9b762/scripts/cancellation-codes.csv
