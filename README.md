@@ -1,4 +1,4 @@
-# Data Visualization PRojects
+# Data Visualization Projects
 Repo for all of my Visualization projects
 
 1. Candy Dataset - Tableau
